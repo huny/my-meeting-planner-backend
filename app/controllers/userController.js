@@ -369,7 +369,7 @@ let forgotPassword = (req,res) => {
     to: newUserObj.email, // list of receivers
     subject: "Meeting Planner Password Reset", // Subject line
     text: `Please click on the following link to reset your password: \n\n 
-    https://youwecan.xyz/reset-password/${newUserObj.resetPasswordToken}`
+    http://youwecan.xyz/reset-password/${newUserObj.resetPasswordToken}`
   }
 
 
