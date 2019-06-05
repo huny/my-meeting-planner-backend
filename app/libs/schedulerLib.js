@@ -1,6 +1,7 @@
 const nodemailer = require('nodemailer');
 const mongoose = require('mongoose');
 const check = require('./checkLib');
+const logger = require('./loggerLib')
 require('./../models/Meeting');
 require('./../models/User');
 
